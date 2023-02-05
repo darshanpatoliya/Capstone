@@ -50,7 +50,7 @@ const Login = ({ location, history }) => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button type="submit">Login1</button>
+          <button type="submit">Login</button>
           <p>
             <Link
               to={redirect ? `/register?redirect=${redirect}` : "/register"}
