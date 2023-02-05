@@ -33,7 +33,7 @@ const Header = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6 d-flex align-items-center display-none">
-              <p>Super Deal! Free Shipping for next 2 weeks</p>
+              <p>Super Deal! Free Shipping for next 2 weekss</p>
             </div>
             <div className="col-md-6 justify-content-center justify-content-lg-end d-flex align-items-center">
               <p>FillCart</p>
