@@ -33,10 +33,13 @@ const Header = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6 d-flex align-items-center display-none">
-              <p>Super Deal! Free Shipping for next 2 weeks</p>
+              <p>FillCart</p>
             </div>
             <div className="col-md-6 justify-content-center justify-content-lg-end d-flex align-items-center">
-              <p>FillCart</p>
+            <Link className="link" to="/about">
+              About Us
+            </Link>
+              <p>Contact Us</p>
               {/* <Link to="">
                 <i className="fab fa-facebook-f"></i>
               </Link>

@@ -45,7 +45,8 @@ textarea:focus {
 }
 .Announcement .col-md-6 p {
   color: white;
-  margin-right: 6rem;
+  margin-right: 1rem;
+  cursor: pointer;
   font-size: 15px;
 }
 .Announcement .col-12 a {
@@ -657,4 +658,9 @@ textarea:focus {
 .page-item.active .page-link {
   background-color: black;
   border: 1px solid black;
+}
+
+.link{
+  color: white;
+  margin-right: 2rem;
 }
