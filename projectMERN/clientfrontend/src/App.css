@@ -664,3 +664,7 @@ textarea:focus {
   color: white;
   margin-right: 2rem;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
