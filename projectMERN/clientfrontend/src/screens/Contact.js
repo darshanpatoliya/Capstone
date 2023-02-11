@@ -1,25 +1,63 @@
 import React from 'react'
+import "./css/contact.css"
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"></link>
 
 const Contact = () => {
-    return (
-      <div name="contact" className='w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white'>
-        <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
-          <div className='pb-8'>
-              <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Contact</p>
-              <p className='py-6'>Submit the form below to get in touch with me</p>
-          </div>
-  
-          <div className='flex justify-center items-center'>
-              <form action='https://getform.io/f/ae5a7ec1-c73d-4e31-8494-0cae397e5448' method='POST' className='flex flex-col w-full md:w-1/2'>
-                  <input type="text" name='name' placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'></input>
-                  <input type="text" name='email' placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'></input>
-                  <textarea name='message' rows='10' placeholder='Enter your message' className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"></textarea>
-                  <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto items-center rounded-md hover:scale-110 duration-300'>Let's talk</button>
-              </form>
-          </div>
+  return (
+    <>
+    <div className='contact'>
+    <div className='content'>
+      <h2>Contact Us</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis cupiditate sapiente veniam dolorem, deserunt corporis enim cumque aut reiciendis assumenda totam quod, laboriosam quis perferendis quisquam adipisci repudiandae. Vel, assumenda.</p>
+    </div>
+    <div className='container'>
+        <div className='containerInfo'>
+            <div className='box'>
+                <div className='icon'></div>
+                <div className='text'>
+                    <h3>Address</h3>
+                    <p>108 University Ave, <br></br>Waterloo, <br></br>ON N2J 2W2</p><br></br>
+                </div>
+            </div>
+            <div className='box'>
+                <div className='icon'></div>
+                <div className='text'>
+                    <h3>Phone</h3>
+                    <p>437-983-5642</p><br></br>
+                </div>
+            </div>
+            <div className='box'>
+                <div className='icon'></div>
+                <div className='text'>
+                    <h3>Email</h3>
+                    <p>fillcart3135@gmail.com</p>
+                </div>
+            </div>
         </div>
-      </div>
-    )
-  }
+        <div className='contactForm'>
+            <form>
+                <h2>Send message</h2>
+                <div className='inputBox'>
+                    <input type="text" name='' required="required"/>
+                    <span>Full Name</span>
+                </div>
+                <div className='inputBox'>
+                    <input type="text" name='' required="required"/>
+                    <span>Email</span>
+                </div>
+                <div className='inputBox'>
+                    <textarea required="required"/>
+                    <span>Type your message...</span>
+                </div>
+                <div className='inputBox'>
+                    <input type="submit" name="" value="Send"/>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    </>
+  )
+}
 
 export default Contact
