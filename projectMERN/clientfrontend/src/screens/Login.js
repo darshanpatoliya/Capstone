@@ -5,8 +5,13 @@ import Message from "../components/LoadingError/Error";
 import Loading from "../components/LoadingError/Loading";
 import Header from "./../components/Header";
 import { login } from "./../Redux/Actions/userActions";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Login = ({ location, history }) => {
+  const onChange = () =>{
+
+  }
+
   window.scrollTo(0, 0);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -49,6 +54,10 @@ const Login = ({ location, history }) => {
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+          />
+          <ReCAPTCHA
+            sitekey="6Lf1PWokAAAAAGjvjaiY-gouoKudLHxS1l06jjhN"
+            onChange={onChange}
           />
           <button type="submit">Login</button>
           <p>
