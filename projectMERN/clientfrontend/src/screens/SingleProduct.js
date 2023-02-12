@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "./../components/Header";
-import Rating from "../components/homeComponents/Rating";
+// import Rating from "../components/homeComponents/Rating";
 import { Link } from "react-router-dom";
 import Message from "./../components/LoadingError/Error";
 import { useDispatch, useSelector } from "react-redux";
@@ -92,10 +92,10 @@ const SingleProduct = ({ history, match }) => {
                     </div>
                     <div className="flex-box d-flex justify-content-between align-items-center">
                       <h6>Reviews</h6>
-                      <Rating
+                      {/* <Rating
                         value={product.rating}
                         text={`${product.numReviews} reviews`}
-                      />
+                      /> */}
                     </div>
                     {product.countInStock > 0 ? (
                       <>
@@ -128,7 +128,7 @@ const SingleProduct = ({ history, match }) => {
             </div>
 
             {/* RATING */}
-            <div className="row my-5">
+            {/* <div className="row my-5">
               <div className="col-md-6">
                 <h6 className="mb-3">REVIEWS</h6>
                 {product.reviews.length === 0 && (
@@ -205,7 +205,7 @@ const SingleProduct = ({ history, match }) => {
                   </div>
                 )}
               </div>
-            </div>
+            </div> */}
           </>
         )}
       </div>
