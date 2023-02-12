@@ -1,10 +1,10 @@
 const products = [
   {
     _id: "1",
-    name: "Webcam",
+    name: "Webcam Camera",
     image: "/images/6.png",
     description:
-      "HD Pro Webcam, Full HD 1080p/30fps Video Calling",
+      "High resolution 1080P Full HD Webcam. This 1080P webcam supply Crisp Image and Crystal Clear Video. Webcam captures your clips in true 1080p glory, and 30 frames per second, so even the most detailed makeup tutorials look crisp and clear",
     price: 89,
     countInStock: 3,
     rating: 4,
@@ -12,10 +12,10 @@ const products = [
   },
   {
     _id: "2",
-    name: "RGB gaming mouse pad",
+    name: "RGB Mousepad",
     image: "/images/5.png",
     description:
-      "Enlight your productivity with this mouse pad",
+      "Brighter RGB light barThe RGB gaming mouse pad has a brand-new 3.0 upgraded luminous strip , beautiful colors, higher brightness, longer luminous life,creating a brighter RGB lighting effects that provides you with a better gaming and working atmosphere experience",
     price: 599,
     countInStock: 10,
     rating: 2,
@@ -23,10 +23,10 @@ const products = [
   },
   {
     _id: "3",
-    name: "Keyboard",
+    name: "Keyboard(full size layout)",
     image: "/images/4.png",
     description:
-      "Smooth touch keyboard",
+      "AESTHETIC & FUNCTIONAL: With a 104 key full sized layout, built-in numeric keypad, and scissor switch keycaps, combined with a sleek low profile body, this keyboard for mac perfectly integrates style and practicality for your workstation",
     price: 929,
     countInStock: 0,
     rating: 3.5,
@@ -34,10 +34,10 @@ const products = [
   },
   {
     _id: "4",
-    name: "Mouse",
+    name: "Light weight mouse",
     image: "/images/3.png",
     description:
-      "Light weight mouse",
+      "Micro-precise scrolling: New designed-for-web scrolling makes searches, shopping and browsing easier^Feel-good design: Contoured shape and textured rubber grips keep your hand comfortable even after long hours^Long battery life: Up to 18 months of battery life virtually eliminates the need to change batteries.",
     price: 399,
     countInStock: 10,
     rating: 5,
@@ -48,23 +48,23 @@ const products = [
     name: "Curved Monitor",
     image: "/images/2.png",
     description:
-      "High-resolution curved monitor with LED display",
-    price: 149,
+      "Featuring an ultra-slim and sleek profile the Samsung CF390 monitor measures less than 0.5inch thick. Make a stylish statement while staying productive with the 24-inch curved screen. The simple circular stand will add a modern look to your space.",
+    price: 49,
     countInStock: 7,
     rating: 2,
     numReviews: 2,
   },
   {
     _id: "6",
-    name: "Black Headphone",
+    name: "HeadPhone (Black)",
     image: "/images/1.png",
     description:
-      "Good Quality Black Headphone",
+      "Enjoy more of the detail in all your favourite songs thanks to 30mm dome drivers. Take and make calls without ever touching your phone. With a high-quality built-in microphone, you will be able to have hands-free conversations on your smartphone with ease.",
     price: 29,
-    countInStock: 0,
+    countInStock: 60,
     rating: 0,
     numReviews: 0,
-  }
+  },
 ];
 
 export default products;
