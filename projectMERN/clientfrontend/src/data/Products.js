@@ -64,7 +64,7 @@ const products = [
     countInStock: 0,
     rating: 0,
     numReviews: 0,
-  }
+  },
 ];
 
 export default products;
