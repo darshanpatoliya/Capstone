@@ -37,7 +37,7 @@ const Contact = () => {
             </div>
         </div>
         <div className='contactForm'>
-            <form>
+            <form action='https://getform.io/f/ae5a7ec1-c73d-4e31-8494-0cae397e5448' method='POST'>
                 <h2>Send message</h2>
                 <div className='inputBox'>
                     <input type="text" name='' required="required"/>
