@@ -56,6 +56,10 @@
   display: flex;
 }
 
+.containers .containerInfo .box .icon{
+  margin-top: 5px;
+}
+
 .containers .containerInfo .box .text{
   display: flex;
   margin-left: 20px;
