@@ -1,16 +1,18 @@
 import React from 'react'
 import "./css/contact.css"
+import Header from "./../components/Header";
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"></link>
 
 const Contact = () => {
   return (
     <>
+    <Header />
     <div className='contact'>
     <div className='content'>
       <h2>Contact Us</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis cupiditate sapiente veniam dolorem, deserunt corporis enim cumque aut reiciendis assumenda totam quod, laboriosam quis perferendis quisquam adipisci repudiandae. Vel, assumenda.</p>
     </div>
-    <div className='container'>
+    <div className='containers'>
         <div className='containerInfo'>
             <div className='box'>
                 <div className='icon'></div>
