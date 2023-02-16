@@ -20,7 +20,7 @@ export const sliderItems = [
     {
         id: 3,
         image: headphone,
-        title: "BOXXING DAY SALE",
+        title: "BOXING DAY SALE",
         desc: "DON'T COMPROMISE ON TECHNOLOGY! GET FREE SHIPPING ON ALL ITEM",
         bg: "fbf0f4"
     },
