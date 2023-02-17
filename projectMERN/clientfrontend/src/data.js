@@ -13,14 +13,14 @@ export const sliderItems = [
     {
         id: 2,
         image: echo1,
-        title: "BLACK FRIDAY SALE",
+        title: "MONTHLY SALE",
         desc: "DON'T COMPROMISE ON TECHNOLOGY! GET FREE SHIPPING ON ALL ITEM",
         bg: "fcf1ed"
     },
     {
         id: 3,
         image: headphone,
-        title: "BOXING DAY SALE",
+        title: "WEEKLY SALE",
         desc: "DON'T COMPROMISE ON TECHNOLOGY! GET FREE SHIPPING ON ALL ITEM",
         bg: "fbf0f4"
     },
