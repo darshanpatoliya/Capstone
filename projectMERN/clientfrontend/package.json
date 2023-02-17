@@ -11,6 +11,7 @@
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.7",
     "@mui/styled-engine-sc": "^5.11.0",
+    "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -19,6 +20,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-google-recaptcha": "^2.1.0",
+    "react-icons": "^4.7.1",
+    "react-id-swiper": "^4.0.0",
     "react-paypal-button-v2": "^2.6.3",
     "react-redux": "^7.2.6",
     "react-router": "^6.0.2",
@@ -38,7 +41,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": { 
+  "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
