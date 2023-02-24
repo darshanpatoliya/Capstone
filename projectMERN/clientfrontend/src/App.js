@@ -17,6 +17,7 @@ import NotFound from "./screens/NotFound";
 import PrivateRouter from "./PrivateRouter";
 import About from "./screens/About";
 import Contact from "./screens/Contact";
+import ShopSection from "./components/homeComponents/ShopSection";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="/products/:id" component={SingleProduct} />
         <Route path="/login" component={Login} />
         <Route path="/about" component={About} />
+        <Route path="/shop" component={ShopSection} />
         <Route path="/contact" component={Contact} />
         <Route path="/register" component={Register} />
         {/* <PrivateRouter path="/profile" component={ProfileScreen} />
