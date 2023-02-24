@@ -7,12 +7,12 @@ import HomeScreen from "./screens/HomeScreen";
 import SingleProduct from "./screens/SingleProduct";
 import Login from "./screens/Login";
 import Register from "./screens/Register";
-// import CartScreen from "./screens/CartScreen";
-// import ShippingScreen from "./screens/ShippingScreen";
-// import ProfileScreen from "./screens/ProfileScreen";
-// import PaymentScreen from "./screens/PaymentScreen";
-// import PlaceOrderScreen from "./screens/PlaceOrderScreen";
-// import OrderScreen from "./screens/OrderScreen";
+import CartScreen from "./screens/CartScreen";
+import ShippingScreen from "./screens/ShippingScreen";
+import ProfileScreen from "./screens/ProfileScreen";
+import PaymentScreen from "./screens/PaymentScreen";
+import PlaceOrderScreen from "./screens/PlaceOrderScreen";
+import OrderScreen from "./screens/OrderScreen";
 import NotFound from "./screens/NotFound";
 import PrivateRouter from "./PrivateRouter";
 import About from "./screens/About";
@@ -37,12 +37,12 @@ const App = () => {
         <Route path="/shop" component={ShopSection} />
         <Route path="/contact" component={Contact} />
         <Route path="/register" component={Register} />
-        {/* <PrivateRouter path="/profile" component={ProfileScreen} />
+        <PrivateRouter path="/profile" component={ProfileScreen} />
         <Route path="/cart/:id?" component={CartScreen} />
         <PrivateRouter path="/shipping" component={ShippingScreen} />
         <PrivateRouter path="/payment" component={PaymentScreen} />
         <PrivateRouter path="/placeorder" component={PlaceOrderScreen} />
-        <PrivateRouter path="/order/:id" component={OrderScreen} /> */}
+        <PrivateRouter path="/order/:id" component={OrderScreen} />
         <Route path="*" component={NotFound} />
       </Switch>
     </Router>
