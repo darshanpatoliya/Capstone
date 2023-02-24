@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styled from "styled-components"
 
 
@@ -47,7 +48,7 @@ const CategoriesItem = ({item}) => {
       <Image src={item.img}/>
       <Info>
         <Title>{item.title}</Title>
-        <Button>SHOP NOW</Button>
+        <Button><Link className='l' to="/shop">SHOP NOW</Link></Button>
       </Info>
     </Container>
   )
