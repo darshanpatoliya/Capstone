@@ -25,4 +25,22 @@ export const sliderItems = [
         desc: "DON'T COMPROMISE ON TECHNOLOGY! GET FREE SHIPPING ON ALL ITEM",
         bg: "fbf0f4"
     },
+];
+
+export const categories =[
+    {
+        id: 1,
+        img: desk,
+        title: "DESKTOP"
+    },
+    {
+        id: 2,
+        img: headphone,
+        title: "HEADPHONES"
+    },
+    {
+        id: 3,
+        img: echo,
+        title: "MOBILE"
+    },
 ]
