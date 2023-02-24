@@ -1,0 +1,15 @@
+.Announcement {
+    background-color: teal;
+}
+
+.links {
+    color: white;
+    /* border-bottom: 1px solid blue; */
+    /* padding-bottom: 5px; */
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+.links:hover {
+    color: white;
+}
