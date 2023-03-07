@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import SingleProduct from "./screens/SingleProduct";
 import Login from "./screens/Login";
+import Reset from "./screens/Reset";
 import Register from "./screens/Register";
 import CartScreen from "./screens/CartScreen";
 import ShippingScreen from "./screens/ShippingScreen";
@@ -33,6 +34,7 @@ const App = () => {
         />
         <Route path="/products/:id" component={SingleProduct} />
         <Route path="/login" component={Login} />
+        <Route path="/reset" component={Reset} />
         <Route path="/about" component={About} />
         <Route path="/shop" component={ShopSection} />
         <Route path="/contact" component={Contact} />
