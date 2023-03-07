@@ -5,6 +5,7 @@ import { createOrder } from "../Redux/Actions/OrderActions";
 import { ORDER_CREATE_RESET } from "../Redux/Constants/OrderConstants";
 import Header from "./../components/Header";
 import Message from "./../components/LoadingError/Error";
+import Swal from 'sweetalert2';
 
 const PlaceOrderScreen = ({ history }) => {
   window.scrollTo(0, 0);
@@ -50,7 +51,12 @@ const PlaceOrderScreen = ({ history }) => {
         shippingPrice: cart.shippingPrice,
         taxPrice: cart.taxPrice,
         totalPrice: cart.totalPrice,
-      })
+      },
+      Swal.fire(
+        'Payment Done!',
+        'Order Placed and will be delivered in 5 days!',
+        'success'
+      ))
     );
   };
 
