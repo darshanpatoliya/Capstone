@@ -3,6 +3,7 @@
 # dependencies
 node_modules/
 /node_modules/.cache/.eslintcache
+projectMERN\clientfrontend\node_modules\.cache\.eslintcache
 /.pnp
 .pnp.js
 
