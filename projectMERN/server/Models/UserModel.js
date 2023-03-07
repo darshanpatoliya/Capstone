@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
 
 const userSchema = mongoose.Schema(
   {
@@ -14,7 +14,7 @@ const userSchema = mongoose.Schema(
     },
     password: {
       type: String,
-      required: true,
+      // required: true,
     },
     isAdmin: {
       type: Boolean,
