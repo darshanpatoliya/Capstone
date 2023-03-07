@@ -53,7 +53,7 @@ const About = () => {
               <img src={Jenil} />
             </div>
             <div className='contentBx'>
-              <h4>Jenil Patel</h4>
+              <h4>Jenil Pate</h4>
               <h5>UML-Designer</h5>
             </div>
             <div className='sci'>
