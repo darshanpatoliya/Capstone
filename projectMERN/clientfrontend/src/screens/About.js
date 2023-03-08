@@ -36,7 +36,7 @@ const About = () => {
               <img src={Darshan} />
             </div>
             <div className='contentBx'>
-              <h4>Darshan Patoliya</h4>
+              <h4>Darshan Patoliy</h4>
               <h5>Back-end</h5>
             </div>
             <div className='sci'>

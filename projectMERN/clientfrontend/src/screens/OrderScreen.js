@@ -112,9 +112,9 @@ const OrderScreen = ({ match }) => {
                         </p>
                       </div>
                     ) : (
-                      <div className="bg-danger p-2 col-12">
+                      <div className="bg-success p-2 col-12">
                         <p className="text-white text-center text-sm-start">
-                          Not Paid
+                          Paid
                         </p>
                       </div>
                     )}

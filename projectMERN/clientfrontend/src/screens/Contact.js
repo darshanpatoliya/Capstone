@@ -10,7 +10,7 @@ const Contact = () => {
     <div className='contact'>
     <div className='content'>
       <h2>Contact Us</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis cupiditate sapiente veniam dolorem, deserunt corporis enim cumque aut reiciendis assumenda totam quod, laboriosam quis perferendis quisquam adipisci repudiandae. Vel, assumenda.</p>
+      <p>Contact us for giving any suggestions of possible improvements</p>
     </div>
     <div className='containers'>
         <div className='containerInfo'>
