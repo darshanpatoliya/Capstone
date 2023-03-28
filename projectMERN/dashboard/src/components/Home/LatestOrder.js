@@ -30,8 +30,8 @@ const LatestOrder = (props) => {
                         Paid At {moment(order.paidAt).format("MMM Do YY")}
                       </span>
                     ) : (
-                      <span className="badge rounded-pill alert-danger">
-                        Not Paid
+                      <span className="badge rounded-pill alert-success">
+                        Paid
                       </span>
                     )}
                   </td>

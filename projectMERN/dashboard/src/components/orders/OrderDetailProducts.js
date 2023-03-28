@@ -72,8 +72,8 @@ const OrderDetailProducts = (props) => {
                       Payment done
                     </span>
                   ) : (
-                    <span className="badge rounded-pill alert alert-danger text-danger">
-                      Not Paid
+                    <span className="badge rounded-pill alert alert-success text-success">
+                      Paid
                     </span>
                   )}
                 </dd>
