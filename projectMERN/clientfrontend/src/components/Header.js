@@ -72,7 +72,7 @@ const Header = () => {
               <div className="row ">
                 <div className="col-6 d-flex align-items-center">
                   <Link className="navbar-brand" to="/">
-                    <img alt="logo" src="/images/logo1.jpg" />
+                    <img alt="logo" src="/images/fillcart-l.png" />
                   </Link>
                 </div>
                 <div className="col-6 d-flex align-items-center justify-content-end Login-Register">
@@ -151,7 +151,7 @@ const Header = () => {
             <div className="row">
               <div className="col-md-3 col-4 d-flex align-items-center">
                 <Link className="navbar-brand" to="/">
-                  <img alt="logo" src="/images/logo1.jpg" className="img" />
+                  <img alt="logo" src="/images/fillcart-l.jpg" className="img" />
                 </Link>
               </div>
               <div className="col-md-6 col-8 d-flex align-items-center">
